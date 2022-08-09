@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>Basic Form</title>
+        <link href="{{ url_for('static', path='/styles.css') }}" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Basic White Form</h1>
+        <form method="POST" enctype="multipart/form-data">
+            <label for="username">Name of Page Facebook:</label><br>
+            <input type="text" name="username"><br>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
